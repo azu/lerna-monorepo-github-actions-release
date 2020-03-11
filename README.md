@@ -15,8 +15,10 @@ This repository is an example of monorepo release flow.
     - Does not git tag
 2. [Local] Submit to Release Pull Request
 3. [GitHub] Review Release Pull Request
+4. [GitHub] Write Release Note into the Release Pull Request's body
 4. [GitHub] Merge Release Pull Request
-5. [CI] git tag && publish to npm(GitHub Package Registry)
+5. [CI] Create git tag && Create GitHub Release && publish to npm(GitHub Package Registry)
+    - :memo: The GitHub Release's body is copied from Release Pull Request's body
 
 ## Changelog
 
