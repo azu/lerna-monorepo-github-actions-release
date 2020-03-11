@@ -25,7 +25,7 @@
   },
   "scripts": {},
   "dependencies": {
-    "@azu/mono-one": "^1.2.0"
+    "@azu/mono-one": "^1.2.1"
   },
   "publishConfig": {
     "access": "public"
