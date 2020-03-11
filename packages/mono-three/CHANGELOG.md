@@ -11,6 +11,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+# 1.1.0 (2020-03-11)
+
+**Note:** Version bump only for package @azu/mono-three
+
+
+
+
+
 # [1.1.0](https://github.com/azu/lerna-monorepo-github-actions-release/compare/v1.0.1...v1.1.0) (2020-03-11)
 
 
