@@ -1,6 +1,6 @@
 # @azu/mono-one
 
-
+One
 
 ## Install
 
