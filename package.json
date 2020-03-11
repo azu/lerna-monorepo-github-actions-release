@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "root",
+  "version": "1.0.0",
+  "description": "Root",
+  "homepage": "https://github.com/azu/lerna-monorepo-github-actions-release",
+  "bugs": {
+    "url": "https://github.com/azu/lerna-monorepo-github-actions-release/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/lerna-monorepo-github-actions-release.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
