@@ -1,9 +1,6 @@
 name: publish
 on:
-  push:
-    branches:
-      - master
-  # Release branch merging
+  # When Release Pull Request is merged
   pull_request:
     branches:
       - master
