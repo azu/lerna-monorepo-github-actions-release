@@ -7,7 +7,7 @@ env:
   CI: true
 jobs:
   publish:
-    name: "Publish to npm"
+    name: Publish
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
@@ -26,10 +26,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Install
         run: yarn install
-      - name: Version up
+      - name: Version Up with current lerna version
         run: |
           CURRENT_VERSION=$(node -p 'require("./lerna.json").version')
           yarn lerna version $CURRENT_VERSION --yes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish
+        run: |
+          yarn lerna from-packages
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
