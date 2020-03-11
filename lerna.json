@@ -3,5 +3,10 @@
     "packages/*"
   ],
   "version": "1.2.1",
-  "includeMergedTags": true
+  "includeMergedTags": true,
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
+    }
+  }
 }
