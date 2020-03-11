@@ -7,7 +7,7 @@ env:
   CI: true
 jobs:
   publish:
-    name: "Test on Node.js"
+    name: "Publish to npm"
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
