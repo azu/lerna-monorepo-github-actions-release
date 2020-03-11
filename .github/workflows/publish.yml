@@ -16,4 +16,6 @@ jobs:
       - name: Install
         run: yarn install
       - name: Version up
-        run: yarn test
+        run: |
+          CURRENT_VERSION=$(node -p 'require("./lerna.json").version')
+          yarn version $CURRENT_VERSION
