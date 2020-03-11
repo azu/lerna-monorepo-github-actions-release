@@ -1,6 +1,6 @@
 # @azu/mono-three
 
-deps
+deps +
 
 - one
 - two
