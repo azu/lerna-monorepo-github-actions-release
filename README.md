@@ -6,6 +6,7 @@ This repository is an example of monorepo release flow.
 
 - User can control packages versions
 - Publish packages from CI
+- Does not support independent mode
 
 ## Release Flow
 
