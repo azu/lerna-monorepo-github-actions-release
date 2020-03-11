@@ -35,9 +35,9 @@ jobs:
           http_status_code=$(curl -LI $GET_API_URL -o /dev/null -w '%{http_code}\n' -s \
             -H "Authorization: token ${INPUT_GITHUB_TOKEN}")
           if [ "$http_status_code" -ne "404" ] ; then
-            echo "::set-output name=exists_tag::false"
-          else
             echo "::set-output name=exists_tag::true"
+          else
+            echo "::set-output name=exists_tag::false"
           fi
       - name: Version Up with current lerna version
         if: steps.tag_check.outputs.exists_tag == 'false'
