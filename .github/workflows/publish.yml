@@ -1,9 +1,12 @@
 name: test
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - master
 env:
   CI: true
 jobs:
-  test:
+  publish:
     name: "Test on Node.js"
     runs-on: ubuntu-18.04
     steps:
@@ -18,4 +21,4 @@ jobs:
       - name: Version up
         run: |
           CURRENT_VERSION=$(node -p 'require("./lerna.json").version')
-          yarn version $CURRENT_VERSION
+          yarn lerna version $CURRENT_VERSION
