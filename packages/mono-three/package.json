@@ -24,6 +24,10 @@
     "test": "test"
   },
   "scripts": {},
+  "dependencies": {
+    "@azu/mono-one": "^1.0.1",
+    "@azu/mono-two": "^1.0.1"
+  },
   "publishConfig": {
     "access": "public"
   }
