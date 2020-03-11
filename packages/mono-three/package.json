@@ -1,6 +1,6 @@
 {
   "name": "@azu/mono-three",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "homepage": "https://github.com/azu/lerna-monorepo-github-actions-release/tree/master/packages/mono-three/",
   "bugs": {
@@ -26,7 +26,7 @@
   "scripts": {},
   "dependencies": {
     "@azu/mono-one": "^1.2.0",
-    "@azu/mono-two": "^1.2.0"
+    "@azu/mono-two": "^1.2.1"
   },
   "publishConfig": {
     "access": "public"
