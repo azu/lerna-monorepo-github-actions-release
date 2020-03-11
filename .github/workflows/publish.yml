@@ -46,7 +46,7 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Version Up with current lerna version
+      - name: Git Tag
         if: steps.tag_check.outputs.exists_tag == 'false'
         uses: azu/action-package-version-to-git-tag@v1
         with:
@@ -62,7 +62,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ env.CURRENT_VERSION }}
+          tag_name: v${{ env.CURRENT_VERSION }}
           release_name: Release ${{ env.CURRENT_VERSION }}
           body: Release ${{ env.CURRENT_VERSION }}
           draft: false
