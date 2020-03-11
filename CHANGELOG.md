@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.1](https://github.com/azu/lerna-monorepo-github-actions-release/compare/v1.3.0...v1.4.1) (2020-03-11)
+
+
+### Bug Fixes
+
+* **one:** add one ([a0ac376](https://github.com/azu/lerna-monorepo-github-actions-release/commit/a0ac3764ed5165745b5651fdcc4648108787c164))
+
+
+### Features
+
+* **three:** update feature ([79d0e2c](https://github.com/azu/lerna-monorepo-github-actions-release/commit/79d0e2c730f6371b6f518d38a049efa367b1fd7b))
+
+
+
+
+
 # [1.4.0](https://github.com/azu/lerna-monorepo-github-actions-release/compare/v1.3.0...v1.4.0) (2020-03-11)
 
 
