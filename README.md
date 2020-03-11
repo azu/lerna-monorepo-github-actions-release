@@ -2,6 +2,11 @@
 
 This repository is an example of monorepo release flow.
 
+## Main purposes
+
+- User can control packages versions
+- Publish packages from CI
+
 ## Release Flow
 
 1. [Local] Run `yarn run versionup`
