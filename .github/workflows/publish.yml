@@ -50,7 +50,7 @@ jobs:
         if: steps.tag_check.outputs.exists_tag == 'false'
         run: |
           # git tag and create GitHub Release and push
-          yarn lerna version $CURRENT_VERSION --yes --conventional-commits --create-release=github
+          yarn lerna version $CURRENT_VERSION --yes
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
