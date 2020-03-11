@@ -50,7 +50,7 @@ jobs:
         if: steps.tag_check.outputs.exists_tag == 'false'
         uses: azu/action-package-version-to-git-tag@v1
         with:
-          version: "${ CURRENT_VERSION }"
+          version: ${{ env.CURRENT_VERSION }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_repo: ${{ github.repository }}
           git_commit_sha: ${{ github.sha }}
