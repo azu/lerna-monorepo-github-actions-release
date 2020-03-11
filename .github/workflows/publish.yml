@@ -70,6 +70,7 @@ jobs:
         with:
           tag_name: v${{ env.CURRENT_VERSION }}
           release_name: Release ${{ env.CURRENT_VERSION }}
+          # Copy Pull Request's body to Release Note's body
           body: |
             ${{ github.event.pull_request.body }}
           draft: false
