@@ -16,9 +16,20 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node_version: 12
+          registry-url: 'https://npm.pkg.github.com'
+      - name: Git Identity
+        run: |
+          git config --global user.name 'azu'
+          git config --global user.email 'azu@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Install
         run: yarn install
       - name: Version up
         run: |
           CURRENT_VERSION=$(node -p 'require("./lerna.json").version')
-          yarn lerna version $CURRENT_VERSION
+          yarn lerna version $CURRENT_VERSION --yes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
