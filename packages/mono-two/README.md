@@ -1,5 +1,9 @@
 # @azu/mono-two
 
+Deps
+
+- one
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
