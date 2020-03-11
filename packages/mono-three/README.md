@@ -1,6 +1,9 @@
 # @azu/mono-three
 
+deps
 
+- one
+- two
 
 ## Install
 
