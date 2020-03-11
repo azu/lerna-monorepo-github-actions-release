@@ -2,17 +2,24 @@
 
 This repository is an example of monorepo release flow.
 
-## Main purposes
+## Purposes
 
 - User can control packages versions
-- Publish packages from CI
+- Publish tag and packages from CI
 - Does not support independent mode
+
+## Roles and Works
+
+1. [Person] Develop and Submit Release Pull Request
+2. [Team] Review Release Pull Request
+3. [CI] Publish
 
 ## Release Flow
 
+0. [Local] Checkout release branch: `git checkout release/<uniq>`
 1. [Local] Run `yarn run versionup`
     - Update CHANGELOG.md and `package.json`'s `version`, and `lerna.json`'s `version`
-    - Does not git tag
+    - It does not git tag
 2. [Local] Submit to Release Pull Request
 3. [GitHub] Review Release Pull Request
 4. [GitHub] Write Release Note into the Release Pull Request's body
