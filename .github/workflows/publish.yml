@@ -43,6 +43,8 @@ jobs:
           else
             echo "::set-output name=exists_tag::false"
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Version Up with current lerna version
         if: steps.tag_check.outputs.exists_tag == 'false'
         run: |
