@@ -1,6 +1,6 @@
 {
   "name": "@azu/mono-one",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "",
   "homepage": "https://github.com/azu/lerna-monorepo-github-actions-release/tree/master/packages/mono-one/",
   "bugs": {
