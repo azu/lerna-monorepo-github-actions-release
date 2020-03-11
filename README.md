@@ -1,16 +1,16 @@
-# root
+# Lerna + monorepo +GitHub Actions Release Flow
 
-Root
+This repository is an example of monorepo release flow.
 
-## Install
+## Release Flow
 
-Install with [npm](https://www.npmjs.com/):
-
-    npm install root
-
-## Usage
-
-- [ ] Write usage instructions
+1. [Local] Run `yarn run versionup`
+    - Update CHANGELOG.md and `package.json`'s `version`, and `lerna.json`'s `version`
+    - Does not git tag
+2. [Local] Submit to Release Pull Request
+3. [GitHub] Review Release Pull Request
+4. [GitHub] Merge Release Pull Request
+5. [CI] git tag && publish to npm(GitHub Package Registry)
 
 ## Changelog
 
