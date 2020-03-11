@@ -21,4 +21,4 @@ jobs:
       - name: Version up
         run: |
           CURRENT_VERSION=$(node -p 'require("./lerna.json").version')
-          yarn lerna version $CURRENT_VERSION
+          yarn lerna version --amend
