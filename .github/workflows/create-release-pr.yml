@@ -23,6 +23,9 @@ jobs:
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Versionup commit
+        run: |
+          yarn run versionup --yes
       - name: Set Current CHANGELOG to output
         id: changelog
         run: |
@@ -30,9 +33,6 @@ jobs:
           output=$(./node_modules/.bin/monorepo-utils-collect-changelog --changelog ./CHANGELOG.md `node -p 'require("./lerna.json").version'`)
           echo "::set-output name=changelog::${output}"
           echo "::set-output name=version::${version}"
-      - name: Versionup commit
-        run: |
-          yarn run versionup --yes
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v2
