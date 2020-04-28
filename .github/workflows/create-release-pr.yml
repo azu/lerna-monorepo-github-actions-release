@@ -30,10 +30,7 @@ jobs:
         id: changelog
         shell: bash -ex {0}
         run: |
-          cat CHANGELOG.md
           version=$(node -p 'require("./lerna.json").version')
-          output=$(./node_modules/.bin/monorepo-utils-collect-changelog --changelog ./CHANGELOG.md "${version}")
-          echo "::set-output name=changelog::${output}"
           echo "::set-output name=version::${version}"
       - name: Create Pull Request
         id: cpr
@@ -45,7 +42,19 @@ jobs:
           author: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
           title: 'v${{ steps.changelog.outputs.version }}'
           body: |
-            ${{ steps.changelog.outputs.changelog }}
+            ## v${{ steps.changelog.outputs.version }}
+
+            ### Breaking Changes
+
+            - [ ] TODO
+
+            ### Features
+
+            - [ ] TODO
+
+            ### Bug Fixes
+
+            - [ ] TODO
           labels: "Type: Release"
           branch: "release/v${{ steps.changelog.outputs.version }}"
           request-to-parent: false
