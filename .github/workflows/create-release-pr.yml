@@ -26,11 +26,11 @@ jobs:
       - name: Versionup commit
         run: |
           yarn run versionup --yes
-      - name: Set Current CHANGELOG to output
+      - name: Set current CHANGELOG to output
         id: changelog
         run: |
           version=$(node -p 'require("./lerna.json").version')
-          output=$(./node_modules/.bin/monorepo-utils-collect-changelog --changelog ./CHANGELOG.md `node -p 'require("./lerna.json").version'`)
+          output=$(./node_modules/.bin/monorepo-utils-collect-changelog --changelog ./CHANGELOG.md "${version}")
           echo "::set-output name=changelog::${output}"
           echo "::set-output name=version::${version}"
       - name: Create Pull Request
