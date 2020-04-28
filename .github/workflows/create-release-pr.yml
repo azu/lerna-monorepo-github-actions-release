@@ -29,6 +29,7 @@ jobs:
       - name: Set current CHANGELOG to output
         id: changelog
         run: |
+          cat CHANGELOG.md
           version=$(node -p 'require("./lerna.json").version')
           output=$(./node_modules/.bin/monorepo-utils-collect-changelog --changelog ./CHANGELOG.md "${version}")
           echo "::set-output name=changelog::${output}"
