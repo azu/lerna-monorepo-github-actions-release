@@ -28,6 +28,7 @@ jobs:
           yarn run versionup --yes
       - name: Set current CHANGELOG to output
         id: changelog
+        shell: bash -ex {0}
         run: |
           cat CHANGELOG.md
           version=$(node -p 'require("./lerna.json").version')
