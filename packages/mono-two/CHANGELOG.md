@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/azu/lerna-monorepo-github-actions-release/compare/v1.6.4...v2.0.0) (2020-04-28)
+
+
+### Features
+
+* **two:** major feature ([39e6688](https://github.com/azu/lerna-monorepo-github-actions-release/commit/39e66888cf84e988868e9ad044bc8c4fd0c879d4))
+
+
+### BREAKING CHANGES
+
+* **two:** update new feature with breaking
+
+
+
+
+
 ## [1.6.4](https://github.com/azu/lerna-monorepo-github-actions-release/compare/v1.6.2...v1.6.4) (2020-03-16)
 
 **Note:** Version bump only for package @azu/mono-two

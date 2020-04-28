@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/azu/lerna-monorepo-github-actions-release/compare/v1.6.4...v2.0.0) (2020-04-28)
+
+**Note:** Version bump only for package @azu/mono-three
+
+
+
+
+
 ## [1.6.4](https://github.com/azu/lerna-monorepo-github-actions-release/compare/v1.6.2...v1.6.4) (2020-03-16)
 
 **Note:** Version bump only for package @azu/mono-three
