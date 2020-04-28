@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.1.0 (2020-04-28)
+
+
+### Features
+
+* **three:** add new feature ([26c93a8](https://github.com/azu/lerna-monorepo-github-actions-release/commit/26c93a87e5c84029c25fbb0bf2cba9fe55fd4d82))
+
+
+
+
+
 # [2.0.0](https://github.com/azu/lerna-monorepo-github-actions-release/compare/v1.6.4...v2.0.0) (2020-04-28)
 
 
