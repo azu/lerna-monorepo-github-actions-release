@@ -14,6 +14,8 @@ jobs:
         with:
           node_version: 12
           registry-url: 'https://npm.pkg.github.com'
+      - name: Install
+        run: yarn install
       - name: Set Current CHANGELOG to output
         id: changelog
         run: |
