@@ -31,6 +31,7 @@
     "release": "lerna publish from-package"
   },
   "devDependencies": {
+    "@monorepo-utils/collect-changelog": "^2.2.0",
     "lerna": "^3.20.2"
   }
 }
