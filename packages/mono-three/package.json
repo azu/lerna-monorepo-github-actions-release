@@ -1,18 +1,18 @@
 {
-  "name": "@azu/mono-three",
+  "name": "@joemcelroy/mono-three",
   "version": "2.0.1",
   "description": "",
-  "homepage": "https://github.com/azu/lerna-monorepo-github-actions-release/tree/master/packages/mono-three/",
+  "homepage": "https://github.com/joemcelroy/lerna-monorepo-github-actions-release/tree/master/packages/mono-three/",
   "bugs": {
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release/issues"
+    "url": "https://github.com/joemcelroy/lerna-monorepo-github-actions-release/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release.git",
+    "url": "https://github.com/joemcelroy/lerna-monorepo-github-actions-release.git",
     "directory": "packages/mono-three"
   },
   "license": "MIT",
-  "author": "azu",
+  "author": "joemcelroy",
   "files": [
     "bin/",
     "lib/",
@@ -25,8 +25,8 @@
   },
   "scripts": {},
   "dependencies": {
-    "@azu/mono-one": "^2.0.1",
-    "@azu/mono-two": "^2.0.1"
+    "@joemcelroy/mono-one": "^2.0.1",
+    "@joemcelroy/mono-two": "^2.0.1"
   },
   "publishConfig": {
     "access": "public"

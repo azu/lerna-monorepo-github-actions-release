@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node_version: 12
-          registry-url: 'https://npm.pkg.github.com'
+          registry-url: "https://npm.pkg.github.com"
       - name: Git Identity
         run: |
           git config --global user.name 'github-actions[bot]'
@@ -51,7 +51,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create Git Tag
         if: steps.tag_check.outputs.exists_tag == 'false'
-        uses: azu/action-package-version-to-git-tag@v1
+        uses: joemcelroy/action-package-version-to-git-tag@v1
         with:
           version: ${{ env.CURRENT_VERSION }}
           github_token: ${{ secrets.GITHUB_TOKEN }}

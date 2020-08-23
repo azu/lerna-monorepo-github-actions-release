@@ -3,16 +3,16 @@
   "name": "root",
   "version": "1.0.0",
   "description": "Root",
-  "homepage": "https://github.com/azu/lerna-monorepo-github-actions-release",
+  "homepage": "https://github.com/joemcelroy/lerna-monorepo-github-actions-release",
   "bugs": {
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release/issues"
+    "url": "https://github.com/joemcelroy/lerna-monorepo-github-actions-release/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release.git"
+    "url": "https://github.com/joemcelroy/lerna-monorepo-github-actions-release.git"
   },
   "license": "MIT",
-  "author": "azu",
+  "author": "joemcelroy",
   "workspaces": {
     "packages": [
       "packages/*"

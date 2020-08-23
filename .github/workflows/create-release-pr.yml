@@ -19,13 +19,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node_version: 12
-          registry-url: 'https://npm.pkg.github.com'
+          registry-url: "https://npm.pkg.github.com"
       - name: Install
         run: yarn install
       - name: Git Identity
         run: |
-          git config --global user.name 'azu'
-          git config --global user.email 'azu@users.noreply.github.com'
+          git config --global user.name 'joemcelroy'
+          git config --global user.email 'joemcelroy@users.noreply.github.com'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Versionup commit
@@ -45,7 +45,7 @@ jobs:
           commit-message: "Update v${{ steps.changelog.outputs.version }}"
           committer: GitHub <noreply@github.com>
           author: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
-          title: 'v${{ steps.changelog.outputs.version }}'
+          title: "v${{ steps.changelog.outputs.version }}"
           body: |
             ## v${{ steps.changelog.outputs.version }}
 
