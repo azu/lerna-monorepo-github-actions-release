@@ -28,7 +28,8 @@
     "postversionup:minor": "npm run commit-version",
     "postversionup:major": "npm run commit-version",
     "commit-version": "git add . && git commit -m \"chore(release): publish `node -p 'require(\"./lerna.json\").version'`\"",
-    "release": "lerna publish from-package"
+    "release": "lerna publish from-package",
+    "release:canary": "lerna publish --canary --preid next --pre-dist-tag next --force-publish='*' --no-push --no-git-tag-version --yes"
   },
   "devDependencies": {
     "@monorepo-utils/collect-changelog": "^2.2.0",
