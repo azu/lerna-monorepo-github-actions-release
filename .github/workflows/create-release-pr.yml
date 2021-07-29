@@ -6,7 +6,7 @@ on:
 # require public member
 # private member is treated as CONTRIBUTOR
 permissions:
-  contents: read # for checkout
+  contents: write # for checkout and commit
   pull-requests: write  # for create pr
 
 jobs:
