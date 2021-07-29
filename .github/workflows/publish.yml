@@ -6,8 +6,6 @@ on:
       - master
     types: [closed]
 
-env:
-  CI: true
 permissions:
   contents: write # for checkout and tag
   pull-requests: write  # for comments

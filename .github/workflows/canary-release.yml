@@ -2,6 +2,7 @@ name: '/canary-release'
 on:
   issue_comment:
     types: [ created ]
+
 permissions:
   contents: read # for checkout
   pull-requests: write  # for comments
