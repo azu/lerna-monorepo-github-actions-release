@@ -1,7 +1,7 @@
 name: Create Pull Request
 on:
   issue_comment:
-    types: [created]
+    types: [ created ]
 
 # require public member
 # private member is treated as CONTRIBUTOR
@@ -28,10 +28,11 @@ jobs:
         run: yarn install
       - name: Git Identity
         run: |
-          git config --global user.name 'azu'
-          git config --global user.email 'azu@users.noreply.github.com'
+          git config --global user.name '${GITHUB_ACTOR}'
+          git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ github.actor }}
       - name: Versionup commit
         run: |
           yarn run versionup --yes
