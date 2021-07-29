@@ -9,7 +9,7 @@ on:
 env:
   CI: true
 permissions:
-  contents: read # for checkout
+  contents: write # for checkout and tag
   pull-requests: write  # for comments
   packages: write # for publish
 
