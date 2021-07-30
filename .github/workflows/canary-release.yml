@@ -36,7 +36,7 @@ jobs:
               core.setFailed(`Request failed with error ${err}`)
             }
       - name: checkout
-        uses: actions/checkout@v1 # workaround for https://github.com/lerna/lerna/issues/1769
+        uses: actions/checkout@v2
         with:
           ref: ${{ fromJSON(steps.pr.outputs.result).head.ref }}
           repository: ${{ fromJSON(steps.pr.outputs.result).head.repo.full_name }}
