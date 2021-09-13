@@ -1,1 +1,1 @@
-module.exports = "one";
+module.exports = "1";
