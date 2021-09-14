@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.16](https://github.com/yordanlv/lerna-monorepo-github-actions-release/compare/v2.1.4...v2.1.16) (2021-09-14)
+
+**Note:** Version bump only for package @yordanlv/ui
+
+
+
+
+
 ## [2.1.15](https://github.com/yordanlv/lerna-monorepo-github-actions-release/compare/v2.1.4...v2.1.15) (2021-09-14)
 
 **Note:** Version bump only for package @yordanlv/ui
