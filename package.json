@@ -21,7 +21,8 @@
   "scripts": {
     "storybook": "NODE_ENV=development start-storybook -p 9001",
     "start": "npm-run-all --parallel storybook build:watch",
-    "build": "lerna exec --parallel -- babel src -d dist",
+    "copy-ts": "copyfiles -u 3 packages/ui/src/**/*.d.ts packages/ui/dist/",
+    "build": "lerna exec --parallel -- babel src -d dist --ignore **/*.test.js,**/*.stories.jsx && npm run copy-ts",
     "build:watch": "npm run build -- --watch",
     "bootstrap": "lerna bootstrap",
     "test": "jest --coverage",
@@ -83,5 +84,8 @@
     "styled-map": "^3.3.0",
     "tslint": "6.1.3",
     "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "copyfiles": "^2.4.1"
   }
 }
