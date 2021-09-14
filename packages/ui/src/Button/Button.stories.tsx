@@ -3,14 +3,7 @@ import { Meta } from '@storybook/react/types-6-0';
 import React from 'react';
 import styled from 'styled-components';
 
-import Button, {
-  DestructiveButton,
-  DisabledButton,
-  ErrorButton,
-  SecondaryButton,
-  TextButton,
-  UnstyledButton,
-} from './Button';
+import Button from './Button';
 
 const Container = styled.div`
   display: flex;
@@ -46,56 +39,11 @@ const AllButtonsTemplate = (args: any) => (
     <Row>
       <Button {...args} onClick={action('primary button clicked')} />
     </Row>
-    <Row>
-      <SecondaryButton {...args} onClick={action('secondary button clicked')} />
-    </Row>
-    <Row>
-      <ErrorButton {...args} onClick={action('error button clicked')} />
-    </Row>
-    <Row>
-      <DisabledButton {...args} onClick={action('disabled button clicked')} />
-    </Row>
-    <Row>
-      <TextButton {...args} onClick={action('text button clicked')} />
-    </Row>
-    <Row>
-      <UnstyledButton {...args} onClick={action('unstyled button clicked')} />
-    </Row>
-    <Row>
-      <DestructiveButton
-        {...args}
-        onClick={action('destructive button clicked')}
-      />
-    </Row>
   </Container>
 );
 const ButtonTemplate = (args: any) => (
   <Button {...args} onClick={action('primary clicked')} />
 );
-const SecondaryButtonTemplate = (args: any) => (
-  <SecondaryButton {...args} onClick={action('secondary clicked')} />
-);
-const ErrorButtonTemplate = (args: any) => (
-  <ErrorButton {...args} onClick={action('error clicked')} />
-);
-const DisabledButtonTemplate = (args: any) => (
-  <DisabledButton {...args} onClick={action('disabled clicked')} />
-);
-const TextButtonTemplate = (args: any) => (
-  <TextButton {...args} onClick={action('text clicked')} />
-);
-const UnstyledButtonTemplate = (args: any) => (
-  <UnstyledButton {...args} onClick={action('unstyled clicked')} />
-);
-const DestructiveButtonTemplate = (args: any) => (
-  <DestructiveButton {...args} onClick={action('destructive clicked')} />
-);
 
 export const All: any = AllButtonsTemplate.bind({});
 export const Primary: any = ButtonTemplate.bind({});
-export const Secondary: any = SecondaryButtonTemplate.bind({});
-export const Error: any = ErrorButtonTemplate.bind({});
-export const Disabled: any = DisabledButtonTemplate.bind({});
-export const Text: any = TextButtonTemplate.bind({});
-export const Unstyled: any = UnstyledButtonTemplate.bind({});
-export const Destructive: any = DestructiveButtonTemplate.bind({});
