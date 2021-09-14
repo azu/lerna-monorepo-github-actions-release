@@ -2,7 +2,7 @@
   "packages": [
     "packages/*"
   ],
-  "version": "2.1.7",
+  "version": "2.1.8",
   "includeMergedTags": true,
   "command": {
     "publish": {
