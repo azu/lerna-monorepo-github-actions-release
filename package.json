@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "root",
-  "version": "1.0.0",
-  "description": "Root",
+  "name": "@websummit/web-ui-design-system",
+  "version": "0.0.1",
+  "description": "",
   "homepage": "https://github.com/yordanlv/lerna-monorepo-github-actions-release",
   "bugs": {
     "url": "https://github.com/yordanlv/lerna-monorepo-github-actions-release/issues"
@@ -19,6 +19,13 @@
     ]
   },
   "scripts": {
+    "storybook": "NODE_ENV=development start-storybook -p 9001",
+    "start": "npm-run-all --parallel storybook build:watch",
+    "build": "lerna exec --parallel -- babel src -d dist",
+    "build:watch": "npm run build -- --watch",
+    "bootstrap": "lerna bootstrap",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
     "versionup": "lerna version --conventional-commits --no-git-tag-version",
     "versionup:patch": "lerna version patch --conventional-commits --no-git-tag-version",
     "versionup:minor": "lerna version minor --conventional-commits --no-git-tag-version",
