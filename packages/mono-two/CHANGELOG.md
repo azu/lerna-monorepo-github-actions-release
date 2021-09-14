@@ -3,6 +3,75 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2021-09-14)
+
+
+### Features
+
+* **two:** major feature ([39e6688](https://github.com/yordanlv/lerna-monorepo-github-actions-release/commit/39e66888cf84e988868e9ad044bc8c4fd0c879d4))
+
+
+### BREAKING CHANGES
+
+* **two:** update new feature with breaking
+
+
+
+# 1.4.0 (2020-03-11)
+
+
+
+## 1.3.5 (2020-03-11)
+
+
+
+## 1.3.4 (2020-03-11)
+
+
+
+## 1.3.3 (2020-03-11)
+
+
+
+# 1.3.0 (2020-03-11)
+
+
+
+## 1.2.2 (2020-03-11)
+
+
+
+## 1.2.1 (2020-03-11)
+
+
+### Bug Fixes
+
+* **two:** add one ([bed0701](https://github.com/yordanlv/lerna-monorepo-github-actions-release/commit/bed070168f3ff0194a9e6da739b18b6f86eca4f8))
+
+
+
+# 1.2.0 (2020-03-11)
+
+
+
+## 1.1.1 (2020-03-11)
+
+
+
+# 1.1.0 (2020-03-11)
+
+
+
+## 1.0.1 (2020-03-11)
+
+
+
+# 1.0.0 (2020-03-11)
+
+
+
+
+
 ## [2.1.7](https://github.com/yordanlv/lerna-monorepo-github-actions-release/compare/v2.1.4...v2.1.7) (2021-09-13)
 
 **Note:** Version bump only for package @yordanlv/mono-two

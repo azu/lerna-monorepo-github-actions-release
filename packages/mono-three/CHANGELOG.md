@@ -3,6 +3,84 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2021-09-14)
+
+
+### Features
+
+* **three:** add new feature ([26c93a8](https://github.com/yordanlv/lerna-monorepo-github-actions-release/commit/26c93a87e5c84029c25fbb0bf2cba9fe55fd4d82))
+* **three:** update new feature ([238c464](https://github.com/yordanlv/lerna-monorepo-github-actions-release/commit/238c464c0fcea2164a00b589cd4ed1a2d58d641d))
+* **three:** update new feature2 ([70c0073](https://github.com/yordanlv/lerna-monorepo-github-actions-release/commit/70c0073e6eef2555576419643a09344795edee8e))
+* **two:** new feature ??? ([7220391](https://github.com/yordanlv/lerna-monorepo-github-actions-release/commit/72203912af4604d9f9beda4fc00a8e5cf8296ae9))
+
+
+### BREAKING CHANGES
+
+* **three:** update log
+* **three:** update log
+
+
+
+# 1.4.0 (2020-03-11)
+
+
+### Features
+
+* **three:** update feature ([79d0e2c](https://github.com/yordanlv/lerna-monorepo-github-actions-release/commit/79d0e2c730f6371b6f518d38a049efa367b1fd7b))
+
+
+
+## 1.3.5 (2020-03-11)
+
+
+
+## 1.3.4 (2020-03-11)
+
+
+
+## 1.3.3 (2020-03-11)
+
+
+
+# 1.3.0 (2020-03-11)
+
+
+
+## 1.2.2 (2020-03-11)
+
+
+
+## 1.2.1 (2020-03-11)
+
+
+
+# 1.2.0 (2020-03-11)
+
+
+
+## 1.1.1 (2020-03-11)
+
+
+
+# 1.1.0 (2020-03-11)
+
+
+### Features
+
+* **three:** add dependencies ([46b6f15](https://github.com/yordanlv/lerna-monorepo-github-actions-release/commit/46b6f15eefbc767c786b1c6799bbd26a87b1633e))
+
+
+
+## 1.0.1 (2020-03-11)
+
+
+
+# 1.0.0 (2020-03-11)
+
+
+
+
+
 ## [2.1.7](https://github.com/yordanlv/lerna-monorepo-github-actions-release/compare/v2.1.4...v2.1.7) (2021-09-13)
 
 **Note:** Version bump only for package @yordanlv/mono-three
