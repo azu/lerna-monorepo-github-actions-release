@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2023-08-08)
+
+
+### Bug Fixes
+
+* **one:** add one ([a0ac376](https://github.com/azu/lerna-monorepo-github-actions-release/commit/a0ac3764ed5165745b5651fdcc4648108787c164))
+
+
+### Features
+
+* **one:** add one ([2348f6a](https://github.com/azu/lerna-monorepo-github-actions-release/commit/2348f6aede39c9c649f941deee9f4a6705367c08))
+* **one:** new feature ([24762ef](https://github.com/azu/lerna-monorepo-github-actions-release/commit/24762ef2e818f84a105a1bb4c09e6f30bd7bd410))
+
+
+
+
+
 ## 2.1.4 (2021-07-29)
 
 **Note:** Version bump only for package @azu/mono-one
