@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.1 (2023-08-08)
+
+
+### Bug Fixes
+
+* **two:** add one ([bed0701](https://github.com/azu/lerna-monorepo-github-actions-release/commit/bed070168f3ff0194a9e6da739b18b6f86eca4f8))
+
+
+### Features
+
+* **two:** major feature ([39e6688](https://github.com/azu/lerna-monorepo-github-actions-release/commit/39e66888cf84e988868e9ad044bc8c4fd0c879d4))
+
+
+### BREAKING CHANGES
+
+* **two:** update new feature with breaking
+
+
+
+
+
 # 3.0.0 (2023-08-08)
 
 

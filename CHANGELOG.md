@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.1 (2023-08-08)
+
+
+### Bug Fixes
+
+* **one:** add one ([a0ac376](https://github.com/azu/lerna-monorepo-github-actions-release/commit/a0ac3764ed5165745b5651fdcc4648108787c164))
+* **two:** add one ([bed0701](https://github.com/azu/lerna-monorepo-github-actions-release/commit/bed070168f3ff0194a9e6da739b18b6f86eca4f8))
+
+
+### Features
+
+* **one:** add one ([2348f6a](https://github.com/azu/lerna-monorepo-github-actions-release/commit/2348f6aede39c9c649f941deee9f4a6705367c08))
+* **one:** new feature ([24762ef](https://github.com/azu/lerna-monorepo-github-actions-release/commit/24762ef2e818f84a105a1bb4c09e6f30bd7bd410))
+* **three:** add dependencies ([46b6f15](https://github.com/azu/lerna-monorepo-github-actions-release/commit/46b6f15eefbc767c786b1c6799bbd26a87b1633e))
+* **three:** add new feature ([26c93a8](https://github.com/azu/lerna-monorepo-github-actions-release/commit/26c93a87e5c84029c25fbb0bf2cba9fe55fd4d82))
+* **three:** update feature ([79d0e2c](https://github.com/azu/lerna-monorepo-github-actions-release/commit/79d0e2c730f6371b6f518d38a049efa367b1fd7b))
+* **three:** update new feature ([238c464](https://github.com/azu/lerna-monorepo-github-actions-release/commit/238c464c0fcea2164a00b589cd4ed1a2d58d641d))
+* **three:** update new feature2 ([70c0073](https://github.com/azu/lerna-monorepo-github-actions-release/commit/70c0073e6eef2555576419643a09344795edee8e))
+* **two:** major feature ([39e6688](https://github.com/azu/lerna-monorepo-github-actions-release/commit/39e66888cf84e988868e9ad044bc8c4fd0c879d4))
+* **two:** new feature ??? ([7220391](https://github.com/azu/lerna-monorepo-github-actions-release/commit/72203912af4604d9f9beda4fc00a8e5cf8296ae9))
+
+
+### BREAKING CHANGES
+
+* **three:** update log
+* **three:** update log
+* **two:** update new feature with breaking
+
+
+
+
+
 # 3.0.0 (2023-08-08)
 
 
