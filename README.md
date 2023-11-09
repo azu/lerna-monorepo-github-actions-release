@@ -1,3 +1,7 @@
+I moved to following workflow.
+
+- **Edit: [azu/monorepo-github-releases: monorepo release flow: lerna + GitHub Release's Automatically generated release notes](https://github.com/azu/monorepo-github-releases)
+
 # Lerna + monorepo +GitHub Actions Release Flow
 
 This repository is an example of monorepo release flow.
